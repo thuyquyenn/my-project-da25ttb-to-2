@@ -1,0 +1,30 @@
+body{
+    background-color: #e8f5e9;
+}
+
+.container{
+    width: 700px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.product-img{
+    width: 350px;
+    border-radius: 15px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+#name{
+    color: #d32f2f;
+    margin-bottom: 10px;
+}
+
+#price{
+    color: #0f4c6d;
+    margin-bottom: 15px;
+}
+
+#desc{
+    font-size: 18px;
+}

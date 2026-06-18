@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chi tiết sản phẩm</title>
+    <link rel="stylesheet" href="../css/style5.css">
+</head>
+<body>
+
+<img id="hinh" width="300">
+<h1 id="ten"></h1>
+<p id="mota"></p>
+<h3 id="gia"></h3>
+
+<script>
+const products = {
+    thapcam: {
+        ten: "Mì Cay Kim Chi Thập Cẩm",
+        hinh: "../assets/images/thapcam.jpg",
+        mota: "Sự kết hợp hài hoa giữa bò, tôm, mực, xúc xích và cá viên với nước dùng kim chi cay nồng đậm đà. mỗi tô mì mang đến hương vị thơm ngon, hấp dẫn khó cưỡng.",
+        gia: "59.000đ"
+    },
+    xucxich: {
+        ten: "Mì Cay Kim Chi Xúc Xích Cá Viên",
+        hinh: "../assets/images/xucxichcavien.jpg",
+        mota: "Những lát xúc xích thơm ngon xúc xích thơm ngon cung với cá viên dai giòn hòa quyện với nước dùng kim chi chua cay đặt trưng, tạo nên món ăn hấp dẫn lôi cuốn.",
+        gia: "42.000đ"
+    },
+    bo: {
+        ten: "Mì Cay Kim Chi Bò",
+        hinh: "../assets/images/bo.jpg",
+        mota: "Thịt bò tươi mềm ngọt được chế biến khéo léo, kết hợp nước dùng kim chi cay nóng đậm vị, mang đến trãi nghiệm ẩm thưc thơm ngon và đậm đà.",
+        gia: "49.000đ"
+    }
+};
+
+const id = new URLSearchParams(window.location.search).get("id");
+const p = products[id];
+
+document.getElementById("ten").innerText = p.ten;
+document.getElementById("hinh").src = p.hinh;
+document.getElementById("mota").innerText = p.mota;
+document.getElementById("gia").innerText = p.gia;
+</script>
+
+</body>
+</html>

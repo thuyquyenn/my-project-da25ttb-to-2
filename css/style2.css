@@ -1,0 +1,37 @@
+/*Mã nguồn css*/
+*{
+      margin:0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 13pt;
+      line-height: 2;
+     /*color:hs1(0, 18%, 91%); */
+	 color:purple;
+
+body{
+    background:#d3d3d3;
+    font-family:Arial;
+}
+
+.container{
+    width:400px;
+    background:gray;
+    padding:30px;
+    margin:80px auto;
+}
+
+input{
+    width:80%;
+    padding:13px;
+    margin:10px 0;
+	font-size:18px;
+}
+
+button{
+    background:#555;
+    color:white;
+    padding:8px 15px;
+    border:none;
+	font-size:14px;
+	margin:5px;
+}

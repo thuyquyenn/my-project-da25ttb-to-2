@@ -13,5 +13,16 @@ img{
       vertical-align:middle;
       border-radius:100%;
 }
+body{
+    background-color: rgb(177, 216, 187);
+}
 
+.container{
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(39, 168, 129);
+}
 
